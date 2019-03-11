@@ -1,6 +1,6 @@
 # Requirements
 
-Best to use v10.15.0 which is the current LTS (long term support) release.
+Best to use node version `10.15.0` which is the current LTS (long term support) release.
 
 # Commands
 
@@ -8,6 +8,6 @@ Best to use v10.15.0 which is the current LTS (long term support) release.
 
 `npm start`
 
-open `http://127.0.0.1:7777/`
+open `http://127.0.0.1:7777/` in a browser.
 
-note: if you have any issues here, you can try opening up the `index.html` file directly in the `src` directory.
+note: if you have any issues with the above steps, you can try opening up the `index.html` file (in the `src` directory) directly in a browser.
