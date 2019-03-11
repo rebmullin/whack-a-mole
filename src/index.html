@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Whack-A-Mole!</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="page-header">
+        <h1 class="page-title">Whack-A-Mole!</h1>
+
+        <div class="game-buttons">
+          <button id="start" class="game-button">
+            Start
+          </button>
+
+          <button id="reset" class="game-button">Reset</button>
+
+          <button id="stop" class="game-button">Stop</button>
+        </div>
+      </header>
+
+      <div class="game-holes" aria-label="moles">
+        <div
+          class="game-hole"
+          aria-live="polite"
+          aria-label="mole 1"
+          tabindex="0"
+          role="img"
+        >
+          <div class="game-mole"></div>
+        </div>
+
+        <div
+          class="game-hole"
+          aria-live="polite"
+          aria-label="mole 2"
+          tabindex="0"
+          role="img"
+        >
+          <div class="game-mole"></div>
+        </div>
+
+        <div
+          class="game-hole"
+          aria-live="polite"
+          aria-label="mole 3"
+          tabindex="0"
+          role="img"
+        >
+          <div class="game-mole"></div>
+        </div>
+
+        <div
+          class="game-hole"
+          aria-live="polite"
+          aria-label="mole 4"
+          tabindex="0"
+          role="img"
+        >
+          <div class="game-mole"></div>
+        </div>
+
+        <div
+          class="game-hole"
+          aria-live="polite"
+          aria-label="mole 5"
+          tabindex="0"
+          role="img"
+        >
+          <div class="game-mole"></div>
+        </div>
+
+        <div
+          class="game-hole"
+          aria-live="polite"
+          aria-label="mole 6"
+          tabindex="0"
+          role="img"
+        >
+          <div class="game-mole"></div>
+        </div>
+
+        <div
+          class="game-hole"
+          aria-live="polite"
+          aria-label="mole 7"
+          tabindex="0"
+          role="img"
+        >
+          <div class="game-mole"></div>
+        </div>
+
+        <div
+          class="game-hole"
+          aria-live="polite"
+          aria-label="mole 8"
+          tabindex="0"
+          role="img"
+        >
+          <div class="game-mole"></div>
+        </div>
+
+        <div
+          class="game-hole"
+          aria-live="polite"
+          aria-label="mole 9"
+          tabindex="0"
+          role="img"
+        >
+          <div class="game-mole"></div>
+        </div>
+      </div>
+
+      <footer class="page-footer">
+        <p class="game-board" aria-live="assertive">
+          Score: <span class="game-score">0</span>
+        </p>
+      </footer>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
