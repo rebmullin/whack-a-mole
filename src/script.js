@@ -32,7 +32,6 @@
 
       // Return to get a new index if the last index is not different.
       if (prevIndex === index) {
-        console.log("REBB HIT");
         return setRandomHole(holes, index);
       }
 
