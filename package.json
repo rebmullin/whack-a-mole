@@ -1,0 +1,24 @@
+{
+  "name": "whack-a-mole",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "gulp build && http-server ./src -p 7777"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rebmullin/whack-a-mole.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rebmullin/whack-a-mole/issues"
+  },
+  "homepage": "https://github.com/rebmullin/whack-a-mole#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-csso": "^3.0.1",
+    "gulp-uglify": "^3.0.2",
+    "http-server": "^0.11.1"
+  }
+}
